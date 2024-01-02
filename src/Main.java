@@ -1,9 +1,8 @@
 
 public class Main {
-    public static void main(String[] args) {
-        User user = new User("Shikhar");
-        System.out.println(user);
-        User user1 = new User("Barthwal");
-        System.out.println(user1);
-    }
+        public static void main(String[] args) {
+            User user = new User("Shikhar", "Barthwal", "abc.tyu@cv.co.in", "91 123456789");
+         
+        }
+    
 }
