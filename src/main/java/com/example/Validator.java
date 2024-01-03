@@ -1,3 +1,4 @@
+package com.example;
 import java.util.regex.Pattern;
 
 public class Validator {
@@ -8,7 +9,7 @@ public class Validator {
         if (!matcher)
             System.out.println("First latter should be Capital with minimum 3 latters ");
 
-        return true;
+        return matcher;
     }
 
     public boolean validateEmail(String email) {
@@ -18,7 +19,7 @@ public class Validator {
         if (!matcher)
             System.out.println("Email format is incorrect");
 
-        return true;
+        return matcher;
     }
 
     public boolean validatePhone(String phone) {

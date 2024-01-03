@@ -1,4 +1,4 @@
-
+package com.example;
 public class User {
     String firstName;
     String lastName;
